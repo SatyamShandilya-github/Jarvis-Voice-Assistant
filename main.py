@@ -8,7 +8,6 @@ import musicLibrary
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "<Your Key Here>"
 
 def speak(text):
     engine.say(text)
@@ -58,4 +57,5 @@ if __name__ == "__main__":
 
 
         except Exception as e:
+
             print("Error; {0}".format(e))
